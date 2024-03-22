@@ -48,4 +48,6 @@ for i in range(100):
         maze[currentX+1][currentY]=9
         currentX+=1
 for row in maze:
-    print (row)
+    for cell in row:
+        print(cell,end=" ")
+    print()
